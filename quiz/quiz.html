@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <nav class="topnav">
+    <a class="topnav-btn" href="../index.html">Back to my portfolio</a>
+  </nav>
+
+  <div id="overlay">
+    <div id="messageBox"></div>
+  </div>
+
+  <div class="quiz-container animated-border">
+    <img src="img/ganyu01.png" alt="A picture of Ganyu">
+    <div class="quiz-question">Do you like my portfolio?</div>
+    <div class="quiz-buttons">
+      <button class="quiz-button quiz-button-yes" onclick="checkAnswer(true)">Yes</button>
+      <button class="quiz-button quiz-button-no" onmouseover="hideButton()" onclick="hideButton()">No</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; My lil' survey.</p>
+  </footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
