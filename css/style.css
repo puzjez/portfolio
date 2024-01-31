@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update for own design */
+/* Custom prompts */
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -306,7 +306,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    /*background-image: url(../img/profile.jpg);*/
+    
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -353,9 +353,7 @@ header {
         margin-right: auto;
     }
 
-    /*.service + .service {
-        margin-left: 2em;
-    }*/
+    
     .service {
         flex: 1;
         max-width: 500px;
@@ -400,7 +398,7 @@ header {
     }
 }
 
-Experiment end (i know this is a abomination but it works and its 1am)*/
+Experiment end (i know this is a abomination but it works and its 1am and i cant think of a better solution lol)*/
 
 
 .about-me {
